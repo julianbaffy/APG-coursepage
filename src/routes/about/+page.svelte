@@ -1,6 +1,5 @@
 <script>
 // @ts-nocheck
-
 	import overview from '$lib/images/Projektübersicht.png';
 </script>
 

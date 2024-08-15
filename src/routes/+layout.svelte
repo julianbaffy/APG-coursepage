@@ -15,7 +15,7 @@
 			&copy; Julian Baldauf
 		</div>
 		<div class="right">
-			<a href="impressum.html">Impressum</a>
+			<a href="/impress">Impressum</a>
 		</div>
 	</footer>
 </div>

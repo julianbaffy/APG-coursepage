@@ -39,12 +39,6 @@
     display: block; /* Macht die gesamte Kachel anklickbar */
   }
 
-  /* Optional: Falls nur der Text in der Kachel betroffen sein soll */
-  .tile a h3, .tile a p {
-    text-decoration: none;
-    color: inherit;
-  }
-
   .tile h3 {
     margin-bottom: 10px;
   }
