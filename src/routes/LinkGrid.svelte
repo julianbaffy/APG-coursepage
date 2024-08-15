@@ -5,6 +5,7 @@
       { title: "YouTube", url: "https://www.youtube.com", description: "Video Sharing" },
       { title: "Wikipedia", url: "https://www.wikipedia.org", description: "Online Encyclopedia" },
       { title: "Julian Baldauf", url: "studentpages/Test.html", description: "Test HTML Seite" },
+      { title: "APG", url: "https://www.apostelgymnasium.de", description: "Die Schule der Schülerinnen und Schüler" },
       // Weitere Links hier hinzufügen
     ];
   </script>
