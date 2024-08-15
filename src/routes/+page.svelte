@@ -18,7 +18,7 @@
 	
 	
 </section>
-<LinkGrid />
+<LinkGrid courseID="1" />
 
 <style>
 	section {

@@ -1,13 +1,18 @@
  <script>
+  export let courseID = "1" //set default on 1
+
   let links = [
-    { title: "Google", url: "https://www.google.com", description: "Search Engine" },
-      { title: "YouTube", url: "https://www.youtube.com", description: "Video Sharing" },
-      { title: "Wikipedia", url: "https://www.wikipedia.org", description: "Online Encyclopedia" },
-      { title: "Julian Baldauf", url: "studentpages/Test.html", description: "Test HTML Seite" },
-      { title: "APG", url: "https://www.apostelgymnasium.de", description: "Die Schule der Schülerinnen und Schüler" },
+      { courseID: "2", title: "Google", url: "https://www.google.com", description: "Search Engine" },
+      { courseID: "1", title: "YouTube", url: "https://www.youtube.com", description: "Video Sharing" },
+      { courseID: "1", title: "Wikipedia", url: "https://www.wikipedia.org", description: "Online Encyclopedia" },
+      { courseID: "1", title: "Julian Baldauf", url: "studentpages/Test.html", description: "Test HTML Seite" },
+      { courseID: "1", title: "APG", url: "https://www.apostelgymnasium.de", description: "Die Schule der Schülerinnen und Schüler" },
   ];
 
-  links = links.sort((a, b) => a.title.localeCompare(b.title));
+  // Filtere die Links basierend auf der übergebenen CourseID
+  let filteredLinks = links.filter(link => link.courseID === courseID);
+
+  filteredLinks = filteredLinks.sort((a, b) => a.title.localeCompare(b.title));
 </script>
 
 <style>
@@ -50,7 +55,7 @@
 </style>
 
 <div class="grid-container">
-  {#each links as link}
+  {#each filteredLinks as link}
     <a href="{link.url}" target="_blank">
       <div class="tile">
         <h3>{link.title}</h3>
