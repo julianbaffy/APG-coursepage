@@ -1,24 +1,24 @@
 <script>
-	import CourseGrid from './CourseGrid.svelte';
+	import LinkGrid from '../LinkGrid.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>IF1</title>
+	<meta name="IF Kurs 1" content="Showcase of all Products of Course 1" />
 </svelte:head>
 
 <section>
 	<h1>
-		HTML Projekte des WP II Informatik
+		HTML Projekte aus IF 1
 	</h1>
 
 	<h2>
-		<strong>am Apostelgymnasium Köln</strong>
+		<strong>Herr Behrens</strong>
 	</h2>
 	
 	
 </section>
-<CourseGrid />
+<LinkGrid courseID="1" />
 
 <style>
 	section {
