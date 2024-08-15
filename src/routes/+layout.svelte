@@ -11,7 +11,12 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<div class="left">
+			&copy; Julian Baldauf
+		</div>
+		<div class="right">
+			<a href="impressum.html">Impressum</a>
+		</div>
 	</footer>
 </div>
 
@@ -35,10 +40,24 @@
 
 	footer {
 		display: flex;
+    	justify-content: space-between;
+    	align-items: center; /* Stellt sicher, dass die Elemente vertikal zentriert sind */
+    	padding: 10px 20px;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
+		border-top: 1px solid #ccc; /* Optionale Linie oben im Footer */
+	}
+
+	footer .left {
+    text-align: left;
+	}
+
+	footer .right {
+    text-align: right;
+	}
+
+	footer .right a {
+    text-decoration: none; /* Optional: Entfernt die Unterstreichung des Links */
+    color: inherit; /* Optional: Link hat die gleiche Farbe wie der Text */
 	}
 
 	footer a {
