@@ -18,8 +18,9 @@
 		<strong>am Apostelgymnasium Köln</strong>
 	</h2>
 	
-	<LinkGrid />
+	
 </section>
+<LinkGrid />
 
 <style>
 	section {
