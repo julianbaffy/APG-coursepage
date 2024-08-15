@@ -6,7 +6,7 @@
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
+		<a href="https://www.apostelgymnasium.de/">
 			<img src={logo} alt="APG" />
 		</a>
 	</div>
