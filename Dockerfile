@@ -36,14 +36,10 @@ RUN npm prune --omit=dev
 FROM base
 
 # Copy built application
-COPY --from=build /app/.sveltekit/output/client /app/client
-COPY --from=build /app/.sveltekit/output/server /app/server
-COPY --from=build /app/.sveltekit/output/prerendered /app/prerendered
-COPY --from=build /app/node_modules /app/node_modules
-COPY --from=build /app/package.json /app
+COPY --from=build /app/build /app
 
 # Expose port 3000
 EXPOSE 3000
 
 # Start the server
-CMD ["node", "./server/index.js"]
+CMD [ "node", "./index.js" ]
