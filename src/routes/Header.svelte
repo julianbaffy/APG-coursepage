@@ -35,7 +35,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/julianbaffy/APG-coursepage">
+		<a href="https://github.com/julianbaffy/APG-coursepage" target="_blank">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
