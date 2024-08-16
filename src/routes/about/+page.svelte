@@ -18,6 +18,6 @@
 		<spacer type=vertical size=12></spacer>
 	</p>
 
-	<img src={overview} alt="Übersicht" vspace="20" />
+	<img src={overview} alt="Übersicht" vspace="20" width="100%" />
 
 </div>
