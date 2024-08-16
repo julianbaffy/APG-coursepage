@@ -1,6 +1,6 @@
 <script>
 // @ts-nocheck
-	import overview from '$lib/images/Projektübersicht.png';
+	import overview from '$lib/images/projectoverview.png';
 </script>
 
 <svelte:head>
