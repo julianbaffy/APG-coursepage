@@ -15,9 +15,8 @@
 	<h2>
 		<strong>am Apostelgymnasium Köln</strong>
 	</h2>
-	
-	
 </section>
+
 <CourseGrid />
 
 <style>
