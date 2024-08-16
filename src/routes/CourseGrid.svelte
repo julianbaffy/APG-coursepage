@@ -31,22 +31,6 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
   }
 
-  /* Direkte Anpassung der Linkstile */
-  .tile a {
-    text-decoration: none !important; /* Entfernt die Unterstreichung */
-    color: inherit !important; /* Setzt die Textfarbe auf die Standardfarbe */
-    display: block; /* Macht die gesamte Kachel anklickbar */
-  }
-
-  .tile h3 {
-    margin-bottom: 10px;
-  }
-
-  .tile p {
-    font-size: 0.9em;
-    color: #666;
-  }
-
   /* Container für das Bild im 16:9-Verhältnis */
   .image-container {
     width: 100%;

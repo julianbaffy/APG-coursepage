@@ -6,7 +6,7 @@
 
 <header>
 	<div class="corner">
-		<a href="https://www.apostelgymnasium.de/">
+		<a href="https://www.apostelgymnasium.de/" target="_blank">
 			<img src={logo} alt="APG" />
 		</a>
 	</div>
