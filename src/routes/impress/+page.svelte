@@ -7,11 +7,9 @@
         <h1>Impressum</h1>
     
         <p>
-            Julian Baldauf<br>
-            Bachemer Str. 58<br>
-            50931 Köln<br>
-            <br>
-            j.baldauf@apostelgymnasium.de
+            Verantwortlich: Julian Baldauf<br>
+                        <br>
+            Direkter Kontakt: j.baldauf@apostelgymnasium.de
         </p>
     </div>
     
