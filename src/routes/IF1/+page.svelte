@@ -9,7 +9,7 @@
 
 <section>
 	<h1>
-		HTML Projekte aus IF 1
+		Website Projekte aus IF 1
 	</h1>
 
 	<h2>
