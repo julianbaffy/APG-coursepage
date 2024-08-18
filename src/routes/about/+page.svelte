@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>Die HTML Projekte</h1>
+	<h1>Die Website Projekte</h1>
 
 	<p>
 		Direkt zu Beginn des Wahlpflichtfaches Informatik in der neunten Klasse lernen die Schülerinnen und Schüler

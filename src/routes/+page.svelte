@@ -4,12 +4,12 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Showcase of students products in the HTML project" />
+	<meta name="description" content="Showcase of students products in the website project" />
 </svelte:head>
 
 <section>
 	<h1>
-		HTML Projekte des WP II Informatik
+		Website Projekte des WP II Informatik
 	</h1>
 
 	<h2>
