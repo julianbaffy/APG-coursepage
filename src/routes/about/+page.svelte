@@ -14,7 +14,7 @@
 	<p>
 		Direkt zu Beginn des Wahlpflichtfaches Informatik in der neunten Klasse lernen die Schülerinnen und Schüler
 		.html Dateien zu erstellen und zu gestalten. Dadurch lernen sie das Grundprinzip der Markup Language kennen,
-		welche Grundlage für jede Website im www ist.
+		welche Grundlage für jede Website im www ist. Anschließend werden CSS sheets hinzugefügt und ein ganzes Website Projekt erstellt.
 		<spacer type=vertical size=12></spacer>
 	</p>
 
