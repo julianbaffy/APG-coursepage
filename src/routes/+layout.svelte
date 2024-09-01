@@ -12,7 +12,7 @@
 
 	<footer>
 		<div class="left">
-			&copy; Julian Baldauf
+			&copy; Julian Baldauf, 2024
 		</div>
 		<div class="right">
 			<a href="/impress">Impressum</a>
