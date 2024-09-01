@@ -5,7 +5,7 @@
       { courseID: "2", title: "Google", url: "https://www.google.com", description: "Search Engine" },
       { courseID: "2", title: "YouTube", url: "https://www.youtube.com", description: "Video Sharing" },
       { courseID: "2", title: "Wikipedia", url: "https://www.wikipedia.org", description: "Online Encyclopedia" },
-      { courseID: "2", title: "Julian Baldauf", url: "studentpages/Test.html", description: "Test HTML Seite" },
+      { courseID: "2", title: "Julian Baldauf", url: "studentpages/Test/Test.html", description: "Test HTML Seite" },
       { courseID: "2", title: "APG", url: "https://www.apostelgymnasium.de", description: "Die Schule der Schülerinnen und Schüler" },
   ];
 
