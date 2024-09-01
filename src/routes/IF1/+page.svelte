@@ -15,6 +15,8 @@
 	<h2>
 		<strong>Herr Behrens</strong>
 	</h2>
+
+	<p>Hier werden die Ergebnisse des Kurses veröffentlicht, sobald die Projekte abgeschlossen wurden.</p>
 	
 	
 </section>
