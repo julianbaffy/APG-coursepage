@@ -2,11 +2,11 @@
   export let courseID = "1" //set default on 1
 
   let links = [
-      { courseID: "2", title: "Google", url: "https://www.google.com", description: "Search Engine" },
-      { courseID: "2", title: "YouTube", url: "https://www.youtube.com", description: "Video Sharing" },
-      { courseID: "2", title: "Wikipedia", url: "https://www.wikipedia.org", description: "Online Encyclopedia" },
-      { courseID: "2", title: "Julian Baldauf", url: "studentpages/Test/Test.html", description: "Test HTML Seite" },
-      { courseID: "2", title: "APG", url: "https://www.apostelgymnasium.de", description: "Die Schule der Schülerinnen und Schüler" },
+      { courseID: "2", title: "Beispiel1, A.", url: "https://www.google.com", description: "Beispielbeschreibung 1" },
+      { courseID: "2", title: "Beispiel2, B.", url: "https://www.youtube.com", description: "Beispielbeschreibung 2" },
+      { courseID: "2", title: "Beispiel3, C.", url: "https://www.wikipedia.org", description: "Beispielbeschreibung 3" },
+      { courseID: "2", title: "Julian, B.", url: "studentpages/Test/Test.html", description: "Test HTML Seite" },
+      { courseID: "2", title: "Beispiel4, D", url: "https://www.apostelgymnasium.de", description: "Beispielbeschreibung 4" },
   ];
 
   // Filtere die Links basierend auf der übergebenen CourseID
