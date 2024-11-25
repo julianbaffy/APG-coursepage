@@ -3,10 +3,11 @@
 
   let links = [
       { courseID: "2", title: "Antonia, P.", url: "studentpages/Antonia_P/website.html", description: "Hockey" },
-      { courseID: "2", title: "Beispiel2, B.", url: "https://www.youtube.com", description: "Beispielbeschreibung 2" },
-      { courseID: "2", title: "Beispiel3, C.", url: "https://www.wikipedia.org", description: "Beispielbeschreibung 3" },
-      { courseID: "2", title: "Julian, B.", url: "studentpages/Test/Test.html", description: "Test HTML Seite" },
-      { courseID: "2", title: "Beispiel4, D", url: "https://www.apostelgymnasium.de", description: "Beispielbeschreibung 4" },
+      { courseID: "2", title: "Kira, S.", url: "studentpages/Kira_S/Index.html", description: "Häkeln lernen" },
+      { courseID: "2", title: "Margó, W.", url: "studentpages/Margo_W/website.html", description: "Volleyball" },
+      { courseID: "2", title: "Mattes, P.", url: "studentpages/Mattes_P/Index.html", description: "Formel 1" },
+      { courseID: "2", title: "Neele, S.", url: "studentpages/Neele_S/fussball.html", description: "Fußball" },
+      { courseID: "2", title: "Paul, S.", url: "studentpages/Paul_S/barca.html", description: "FC Barcelona" },
   ];
 
   // Filtere die Links basierend auf der übergebenen CourseID
