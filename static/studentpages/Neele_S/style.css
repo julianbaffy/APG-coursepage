@@ -1,0 +1,119 @@
+/* Allgemeine Seite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Verhindert, dass Padding und Border die Größe der Elemente beeinflussen */
+}
+
+body {
+    background-color: lavender; /* Hintergrundfarbe für das gesamte Browserfenster */
+    font-family: Arial, sans-serif; /* Allgemeine Schriftart */
+    color: #333; /* Dunklerer Text für besseren Kontrast */
+}
+
+/* Container für den gesamten Inhalt */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; /* Zentriert den Inhalt */
+}
+
+/* Header */
+header {
+    height: 100px;
+    background-color: lavender;
+    display: flex;
+    align-items: center; /* Vertikale Ausrichtung der Inhalte */
+    justify-content: flex-start; /* Positioniert das Logo am linken Rand */
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px; /* Abstand vom linken Rand */
+}
+
+/* Navigation */
+nav {
+    background-color: #9b7bcd; /* Etwas dunkleres Lavendel für den Navigationsbereich */
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Abgerundete Ecken für die Links */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #7a5fa7; /* Etwas dunklerer Farbton bei Hover */
+}
+
+/* Section */
+section {
+    background-color: white;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px; /* Abgerundete Ecken für den Inhalt */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Weicher Schatten für den Inhalt */
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #9b7bcd;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

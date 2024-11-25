@@ -1,0 +1,54 @@
+﻿* {
+  width: 800px;
+  margin: auto;
+}
+
+header {
+  height: 50px;
+  background-color: red;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+}
+
+section h1 {
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  display: flex;
+}
+
+p1 {
+  text-align: right;
+}
+
+p2 {
+  text-align: left;
+}
+
+nav ul li {
+  display: inline;
+  margin: 30px;
+}
+
+.p3 {
+  width: 500px;
+  height: 300px;     
+  overflow: hidden; 
+  position: relative;
+}
+
+.p3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  position: absolute; 
+  top: -50px;        
+  left: 0;           
+}
