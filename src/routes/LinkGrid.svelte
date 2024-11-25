@@ -2,7 +2,7 @@
   export let courseID = "1" //set default on 1
 
   let links = [
-      { courseID: "2", title: "Beispiel1, A.", url: "https://www.google.com", description: "Beispielbeschreibung 1" },
+      { courseID: "2", title: "Antonia, P.", url: "studentpages/Antonia_P/website.html", description: "Hockey" },
       { courseID: "2", title: "Beispiel2, B.", url: "https://www.youtube.com", description: "Beispielbeschreibung 2" },
       { courseID: "2", title: "Beispiel3, C.", url: "https://www.wikipedia.org", description: "Beispielbeschreibung 3" },
       { courseID: "2", title: "Julian, B.", url: "studentpages/Test/Test.html", description: "Test HTML Seite" },
